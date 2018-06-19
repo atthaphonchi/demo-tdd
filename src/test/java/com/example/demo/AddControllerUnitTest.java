@@ -7,7 +7,6 @@ import static org.mockito.MockitoAnnotations.initMocks;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
-import com.example.*;
 
 public class AddControllerUnitTest {
 
