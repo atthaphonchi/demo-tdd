@@ -1,12 +1,13 @@
 package com.example.demo;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.mockito.BDDMockito.given;
+import static org.mockito.MockitoAnnotations.initMocks;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
-import static org.mockito.MockitoAnnotations.initMocks;
-import static org.mockito.BDDMockito.given;
+import com.example.*;
 
 public class AddControllerUnitTest {
 
